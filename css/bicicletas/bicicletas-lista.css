@@ -1,0 +1,46 @@
+.bicicletas-lista h2{
+    color: var(--c-11);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    margin-bottom: 40px;
+    margin-left: 220px;
+}
+.bicicletas-lista{
+    margin-top: 120px;
+}
+
+.lista-bicicletas{
+    display: flex;
+    gap: 0px 40px;
+    padding: 0px 70px 0px 70px;
+    margin: 0px 40px 0px 40px;
+}
+
+.lista-bicicletas img{
+    width: 460px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.lista-bicicletas h3{
+    color: var(--c-11);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 16px;
+}
+
+.lista-bicicletas p{
+    color: var(--cor-8);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 8px;
+}
