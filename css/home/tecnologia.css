@@ -1,0 +1,91 @@
+.tecnologia-bg{
+    background: var(--cor-11);
+    box-shadow: inset 0 -80px var(--cor-0), inset 0 80px var(--cor-0);
+    margin-top: 150px;
+}
+
+.tecnologia.container .img-bg{
+    max-width: 100%;
+    height: 1120px;
+}
+
+.tecnologia.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.tecnologia-conteudo{
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.tecnologia-conteudo h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--cor-5);
+    text-transform: uppercase;
+}
+
+.tecnologia-conteudo h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--cor-0);
+    margin-top: 20px;
+}
+
+.tecnologia-conteudo p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--cor-5);
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+
+.tecnologia-conteudo a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--cor-p1);
+}
+
+.conteudo-sobre{
+    display: flex;
+    gap: 40px;
+    padding-top: 80px;
+}
+
+.conteudo-sobre h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--cor-0);
+}
+
+.conteudo-sobre p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-5);
+}
+
+.img-sobre{
+    margin-bottom: 9px;
+    width: 24px;
+    height: 22px;
+    justify-content: center;
+}
