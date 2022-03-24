@@ -1,0 +1,113 @@
+.seguro-bg{
+    background-color: var(--cor-11);
+    height: 800px;
+}
+
+
+.seguro h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--cor-1);
+    padding-bottom: 100px;
+    padding-top: 60px;
+}
+
+.seguro li{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: var(--cor-1);
+}
+
+.planos-grid{
+    display: flex;
+    gap: 40px;
+}
+
+.planos-grid a{
+    background: var(--cor-10);
+    padding: 20px 30px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+}
+
+.plano-prata{
+    background-color: blue;
+    padding: 20px;
+
+}
+
+
+.plano-prata li{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.plano-prata h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--cor-6);
+    text-transform: uppercase;
+    padding: 0px 20px;
+    margin-bottom: 40px;
+}
+
+.plano-prata a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--cor-4);
+    margin-top: 32px;
+}
+
+.botao-prata{
+    padding: 32px 20px;
+}
+
+.flex-titulo{
+    display: flex;
+    gap: 130px;
+}
+
+.valores1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--cor-1);
+}
+
+.mensal1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--cor-6);
+    background-color: red;
+}
+
+.plano-ouro{
+    background-color: aqua;
+}
+
+.plano-ouro li{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
