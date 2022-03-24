@@ -1,0 +1,54 @@
+.depoimento-bg{
+    background: var(--cor-p1);
+}
+
+.depoimento-conteudo{
+    display: flex;
+}
+
+.depoimento-conteudo img{
+    width: 50vw;
+}
+
+.frase{
+    margin-top: 200px;
+    padding: 0px 80px;
+}
+
+.frase h1{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--cor-p5);
+    position: relative;
+}
+
+.frase h1::before{
+    content: "“";
+    font-size: 100px;
+    position: absolute;
+    left: -40px;
+    top: 5px;
+    color: var(--cor-p2);
+}
+
+.frase h1::after{
+    content: "”";
+    font-size: 100px;
+    position: absolute;
+    bottom: -40px;
+    right: 5px;
+    color: var(--cor-p2);
+}
+
+.frase p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--cor-p4);
+    margin-top: 32px;
+}
