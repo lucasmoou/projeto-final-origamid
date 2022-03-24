@@ -1,0 +1,31 @@
+.parceiros-bg{
+    background: var(--cor-0);
+    margin-top: 20px;
+    
+}
+
+.parceiros{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--cor-11);
+    margin-bottom: 90px;
+}
+
+.flex-imgs{
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px 0px;
+    align-self: center;
+    margin-bottom: 120px;
+}
+
+.flex-imgs li{
+    display: flex;
+    align-self: center;
+    gap: 0px 30px;
+    justify-content: center;
+}
