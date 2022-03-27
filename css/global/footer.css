@@ -1,0 +1,35 @@
+.footer-bg{
+    background-color: var(--cor-11);
+}
+
+.informacoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.titulo-footer{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: var(--cor-1);
+    margin-bottom: 32px;
+}
+
+.textos-footer{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.015em;
+    color: var(--cor-5);
+}
+
+.textos-footer.container{
+    margin-top: 80px;
+    margin-bottom: 32px;
+}
