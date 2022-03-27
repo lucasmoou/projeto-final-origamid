@@ -1,8 +1,10 @@
 .seguro-bg{
     background-color: var(--cor-11);
-    height: 800px;
 }
 
+.seguro{
+    padding-bottom: 120px;
+}
 
 .seguro h2{
     font-family: 'Poppins';
