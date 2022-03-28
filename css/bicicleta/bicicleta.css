@@ -1,0 +1,79 @@
+.info-bg{
+    background-color: var(--cor-11);
+}
+
+.info p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: var(--cor-5);
+    padding-top: 60px;
+}
+
+.info h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--cor-1);
+    padding-bottom: 60px;
+    margin-top: 8px;
+}
+
+.nimbus{
+    display: flex;
+    gap: 40px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.nimbus img{
+    border-radius: 5px;
+}
+
+.nimbus h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--cor-11);
+}
+
+.nimbus p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--cor-8);
+    margin-top: 20px;
+}
+
+.vantagens-bicicletas{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--cor-8);
+    margin-top: 32px;
+}
+
+.vantagens-bicicletas li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+
+.conteudo-biciletas a{
+    display: inline-flex;
+    margin-left: 300px;
+}
+
