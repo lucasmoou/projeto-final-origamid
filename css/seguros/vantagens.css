@@ -1,0 +1,42 @@
+.vantagens-bg{
+    background-color: var(--cor-12);
+}
+
+.vantagens ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.vantagens h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--cor-1);
+    padding-top: 120px;
+    padding-bottom: 92px;
+}
+
+.vantagens h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--cor-1);
+}
+
+.vantagens p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--cor-6);
+}
+
+.vantagens h3, .vantagens img {
+    margin-bottom: 9px;
+}

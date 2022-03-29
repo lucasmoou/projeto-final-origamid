@@ -45,6 +45,7 @@
     padding: 20px;
     width: 560px;
     height: 396px;
+    border-radius: 5px;
 }
 
 
@@ -109,6 +110,7 @@
     padding: 20px;
     width: 560px;
     height: 484px;
+    border-radius: 5px;
 }
 
 .plano-ouro li{
