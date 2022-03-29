@@ -1,0 +1,30 @@
+.perguntas-bg{
+    background-color: var(--cor-1);
+    padding-bottom: 120px;
+}
+
+.perguntas h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--cor-11);
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+
+.perguntas h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--cor-11);
+    padding: 20px;
+}
+
+.lista-perguntas li:nth-child(odd){
+    background-color: var(--cor-2);
+    border-radius: 5px;
+}

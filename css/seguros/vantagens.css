@@ -2,6 +2,11 @@
     background-color: var(--cor-12);
 }
 
+.vantagens {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
 .vantagens ul{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -15,7 +20,6 @@
     font-size: 64px;
     line-height: 72px;
     color: var(--cor-1);
-    padding-top: 120px;
     padding-bottom: 92px;
 }
 
