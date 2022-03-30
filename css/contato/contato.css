@@ -1,0 +1,63 @@
+/* Aprendendo estilizar formulario */
+
+.form-bg{
+    background-color: var(--cor-11);
+}
+
+.form-contantos {
+    background-color: var(--cor-12);
+    padding: 40px;
+    width: 30%;
+}
+
+.form-contantos  h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-1);
+    margin-bottom: 60px;
+}
+
+.lista-contatos p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-4);
+}
+
+.emails-contatos{
+    margin-top: 32px;
+}
+
+.numero-contatos{
+    margin-top: 32px;
+}
+
+.form {
+    display: flex;
+}
+
+.formulario{
+    background: white;
+    width: 100%;
+}
+
+.formulario{
+    padding: 30px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+input, textarea {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+}

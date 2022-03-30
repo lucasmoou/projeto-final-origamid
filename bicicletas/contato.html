@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
+</head>
+
+<body>
+    <header class="header-bg">
+        <div class="header container">
+            <img src="../img/bikcraft.svg" alt="">
+            <nav>
+                <ul class="header-menu">
+                    <li>Bicicletas</li>
+                    <li>Seguros</li>
+                    <li>Contato</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</body>
+<section class="info-bg">
+    <div class="info container">
+        <p>respostas em até 24h</p>
+        <h1>nosso contato.</h1>
+    </div>
+</section>
+<section class="form-bg">
+    <div class="form container">
+        <div class="form-contantos ">
+            <h3>Loja Online</h3>
+            <ul class="lista-contatos">
+                <li>
+                    <p>Rua Ali Perto, 35</p>
+                    <p>Rio de Janeiro - RJ</p>
+                    <p>Brasil - Terra - Vita Láctea</p>
+                </li>
+                <li class="emails-contatos">
+                    <p>vendas@bikcraft.com</p>
+                    <p>assistencia@bikcraft.com</p>
+                </li>
+                <li class="numero-contatos">
+                    <p>+55 21 9999-9999</p>
+                </li>
+            </ul>
+        </div>
+        <!-- Aprendendo a fazer formulario -->
+        <div class="formulario">
+            <form class="contato-form" action="/" method="POST">
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome" />
+
+                    <label for="nome">Telefone</label>
+                    <input type="number" id="Telefone" name="Telefone" placeholder="(21) 9999-9999" />
+                </div>
+            </form>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="nome@email.com" />
+            </div>
+            <div>
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+            </div>
+        </div>
+    </div>
+</section>
+
+</html>
