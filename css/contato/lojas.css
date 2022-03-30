@@ -1,0 +1,63 @@
+.lojas-local-bg{
+    background-color: var(--cor-1);
+    padding-bottom: 120px;
+}
+
+.lojas-local{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.lojas-local-bg h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--cor-11);
+    padding-top: 120px ;
+    padding-bottom: 60px;
+}
+
+.conteudo-local{
+    padding: 32px 60px;
+}
+
+.local-item{
+    background-color: var(--cor-0);
+}
+
+.local-item h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--cor-12);
+}
+
+.local-item h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--cor-12);
+    margin-top: 32px;
+}
+
+.local-item li{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--cor-6);
+}
+
+.endereços-conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 32px;
+}
